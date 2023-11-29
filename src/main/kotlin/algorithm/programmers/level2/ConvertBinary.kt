@@ -1,9 +1,5 @@
 package algorithm.programmers.level2
 
-fun main() {
-    ConvertBinary().solution("11110000")
-}
-
 class ConvertBinary {
     fun solution(s: String): IntArray {
         var tem = s
