@@ -1,4 +1,4 @@
-package algorithm.programmers
+package algorithm.programmers.level2
 class MinMax {
     fun solution(s: String): String = s
         .split(" ").stream()

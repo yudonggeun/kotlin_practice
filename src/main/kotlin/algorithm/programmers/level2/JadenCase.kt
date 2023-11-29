@@ -1,4 +1,4 @@
-package algorithm.programmers
+package algorithm.programmers.level2
 
 class JadenCase {
     fun solution(s: String): String {
