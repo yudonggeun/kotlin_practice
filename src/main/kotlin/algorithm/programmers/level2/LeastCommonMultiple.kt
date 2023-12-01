@@ -3,9 +3,6 @@ package algorithm.programmers.level2
 import kotlin.math.pow
 import kotlin.math.sqrt
 
-fun main() {
-    LeastCommonMultiple().solution(intArrayOf(1,2,3))
-}
 class LeastCommonMultiple {
     fun solution(arr: IntArray): Int {
         val primeMap = HashMap<Int, Int>()
