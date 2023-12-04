@@ -2,11 +2,9 @@ package algorithm.programmers.level2
 
 class Jump {
     fun solution(n: Int): Long {
-        val MOD = 1234567L
+        val MAX = 1234567L
         val dp = LongArray(n + 2) { 1 }
-        for (i in 2..n) {
-            dp[i] = (dp[i - 1] + dp[i - 2]) % MOD
-        }
+        (2..n).forEach { dp[it] = (dp[it - 1] + dp[it - 2]) % MAX }
         return dp[n]
     }
 }
